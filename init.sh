@@ -3,7 +3,7 @@ cd ..
 # Get project name
 echo "Project name: "
 read name
-cp ./react-project-skeleton/project $name
+cp -R ./react-project-skeleton/project $name
 cd $name
 
 # Initialize project
