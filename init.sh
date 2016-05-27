@@ -1,8 +1,9 @@
+#!/bin/bash
 cd ..
 # Get project name
 echo "Project name: "
 read name
-move ./react-project-skeleton/project $name
+cp ./react-project-skeleton/project $name
 cd $name
 
 # Initialize project
