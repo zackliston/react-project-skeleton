@@ -1,0 +1,11 @@
+logs
+*.log
+pids
+*.pid
+*.seed
+node_modules
+build/Release
+.sass-cache
+publicBuilt
+*.DS_Store
+public/js
