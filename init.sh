@@ -30,3 +30,5 @@ node ./node_modules/json/lib/json.js -I -f package.json -e 'this.browserify.tran
 
 # Remove temporary json parser
 npm uninstall json
+npm run build
+echo "To run, type 'npm run dev' into your terminal and navigate your browser to http://localhost:8080"
